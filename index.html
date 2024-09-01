@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Miguelitos Web</title>
+    <style>
+        table, th, td {         
+            border: 1px solid black;
+         }
+    
+    </style>
+</head>
+<body> 
+    <table style="widht: 500px;">   <!--la etiqueta Table sirve para hacer tablas-->
+        <thead> <!--la etiqueta Thead sirve para agrupar elementos de la cabecera de la tabla-->
+            <tr> 
+                <th>Producto</th> 
+                <th>Precio</th>  
+            </tr>
+        </thead>
+        <tbody><!--la etiqueta Tbody sirve para agrupar las filas que pertenezcan al cuerpo de nuestra tabla-->
+            <tr> 
+                <td>Miguel</td> 
+                <td>Free</td>
+            </tr>  
+                <td>Miguel</td> 
+                <td>$19.90</td>
+            </tr> 
+                <td>Miguel muy feliz</td> 
+                <td>$29.90</td>
+            </tr>  
+        </tbody>
+        <tfoot>
+            <td></td>
+            <td>Total $49.80</td>
+        </tfoot>
+    </table>
+    <!--UL se refiere a "lista no ordenada"-->
+    <ul>
+        <li>Elemento 1</li>
+        <li>Elemento 2</li>
+        <li>Elemento 3</li>
+        <li>Elemento 4</li>
+    </ul>    
+    <!--ol se refiere a "lista ordenada"-->
+    <ol>
+        <li>Elemento 1</li>
+        <li>Elemento 2</li>
+        <li>Elemento 3</li>
+        <li>Elemento 4</li>
+    </ol> 
+    <!--"lista ordenada con un valor"-->
+    <ol>
+        <li value="50">Elemento 1</li>
+        <li value="51">Elemento 2</li>
+        <li value="52">Elemento 3</li>
+        <li value="53">Elemento 4</li>
+        <li>
+            <!--"lista ordenada anidada con subelementos"-->
+            <ol>
+                 <!--"sirve para colocar el tipo de letra o numero en la lista"-->
+                <li style="list-style-type: Lower-alpha;">Sub Elemento 1</li>
+                <li style="list-style-type: Lower-alpha;">Sub Elemento 2</li>
+                <li style="list-style-type: Lower-alpha;">Sub Elemento 3</li>
+                <li style="list-style-type: Lower-alpha;">Sub Elemento 4</li>
+            </ol> 
+        </li>
+    </ol> 
+    <form action="/formulario" method="POST">
+        <label for="nombre">Nombre</label>
+            <input value="Luky" type="text" id="Nombre" name="nombre" placeholder="Nombre" />
+        <br>
+        <label for="apellido">apellido</label>
+        <input value="feliz" type="text" id="apellido" name="apellido" placeholder="apellido" />
+        <br>
+        <label for="comment">Comment</label>
+        <textarea cols="50" rows="10"  id="comment" name="comment" placeholder="ingrese comment">este es uno por defecto</textarea>
+        <br>
+        <button type="buttom">Tipo boton</button>
+        <button type="reset">Tipo reset</button>
+        <button type="submit">tipo submit</button>
+    </form>
+    <h1>Mi primer HeAding</h1>
+    <h2>Mi segundo HeAding</h2>
+    <h3>Mi primer HeAding</h3>
+    <h4>Mi primer HeAding</h4>
+    <h5>Mi primer HeAding</h5>
+    <h6>Mi primer HeAding</h6>
+    <p>Mi primer pArrAfo</p>
+    <hr>
+    <p>Mi primer pArrAfo</p>
+    <h2>Mi primer texto</h2>
+    <p>MAs pArrAfo</p>
+    <p>
+        Mi primer pArrAfo, es como pArA <span style="color:blue" PrActicAr mucho mucho</span>   
+        <br>porque reAlmete creo que es muy ultrA super necesArio!
+    </p>
+    <!--Este es un comment-->
+    <a target="_blank" href="www.google.com">Ir a Google</a>
+    <img src="img/AE86.jpg"height="400"/>
+   
+</body>
+</html>
